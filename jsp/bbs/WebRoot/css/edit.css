@@ -1,0 +1,43 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#footer{
+	bottom:-265px;
+}
+
+
+#editForm{
+	width:500px;
+	height:300px;
+	position:relative;
+	margin:100px auto;
+}
+
+#editName{
+	width:300px;
+	height:30px;
+	position:absolute;
+	left:20%;
+}
+#editRole{
+	width:300px;
+	height:30px;
+	position:absolute;
+	left:20%;
+	top:20px;
+}
+#editSubmit{
+	width:150px;
+	height:30px;
+	position:absolute;
+	left:35%;
+	top:120px;
+	border:0px;
+	background:blue;
+	color:white;
+	font-size:20px;
+	cursor:pointer;
+}
